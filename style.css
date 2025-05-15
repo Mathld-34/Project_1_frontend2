@@ -1,0 +1,137 @@
+body {
+    background-color: #006400;
+    width: 100vw;
+    height: 100vh;
+    margin:0px;
+    display: block;
+    background-image: url(/img/Image\ Pasted\ at\ 2025-5-6\ 20-03.jpg);
+    background-position: center;
+
+}
+
+#header-main {
+    background-color: white;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(86, 166, 137);
+    text-transform: capitalize;
+}
+
+#top-content{
+    padding-bottom: 32px;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#main-content {
+    padding: 80px;
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#bottom-content{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(86, 166, 137);
+    font-size: 16px;
+
+}
+
+#left-content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width: 25vw;
+
+}
+
+.content_input{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+    margin: 8px 0px;
+}
+
+.content_input > label {    
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+input{
+    padding:16px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 4px;
+    border: none;
+}
+
+
+#search-button{
+    color: white;
+    font-size: 16px;
+    background-color: rgb(86, 166, 137);
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+}
+
+#cancel-button{
+    color: white;
+    font-size: 16px;
+    background-color: rgb(133, 158, 149);
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+}
+
+#right-content{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+#train-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.result-bloc{
+    background-color: rgb(239, 239, 239);
+    padding: 16px;
+    margin-bottom: px;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 4px;
+
+}
+.result-item{
+    color: black;
+}
+
+.result-label {
+    display: none;
+}
